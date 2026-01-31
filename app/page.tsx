@@ -6,7 +6,7 @@ export default async function Home() {
   
   return (
     <>
-      <main className="min-h-screen py-12 px-4">
+      <main className="min-h-screen py-12 px-4 gradient-to-b from-blue-600 to-purple-600 text-white">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-4">

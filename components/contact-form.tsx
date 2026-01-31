@@ -26,7 +26,7 @@ export default function ContactForm() {
       setIsSuccess(true);
       formRef.current?.reset();
     } else {
-      setMessage(result.error ?? "Something went wrong");
+      setMessage(result.message || "Something went wrong");
       setIsSuccess(false);
     }
 
